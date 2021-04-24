@@ -29,7 +29,6 @@ public class BalancedBinaryTree110 {
     }
 
     private static int calculateHeight(TreeNode root){
-
         //base case
         if(root == null) return -1;
         //recursive case
