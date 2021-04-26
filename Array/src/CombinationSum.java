@@ -7,9 +7,7 @@ public class CombinationSum {
         int[] candidates = {2,3,6,7};
         int target = 7;
         // expected result -> [[2,2,3],[7]]
-
         System.out.println(combinationSum(candidates,target));
-
     }
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
